@@ -6,10 +6,8 @@ body {
     overflow: hidden;
 }
 
-
-/* CSS */
 #interactiveCanvas {
-    position: absolute; /* Positioned absolutely to move with window */
+    position: absolute;
     top: 0;
     left: 0;
 }
