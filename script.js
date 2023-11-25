@@ -56,14 +56,14 @@ document.addEventListener('DOMContentLoaded', function() {
         const centerY = canvas.height / 2;
     
         // Define properties of the orb
-        const numParticles = 1500; // Number of particles in the orb
+        const numParticles = 1000; // Number of particles in the orb
         const orbRadius = 200; // Base radius of the orb
         const particleRadius = 1; // Radius of each particle
     
         // Define properties of the dust
-        const numDustParticles = 5000; // Number of dust particles
-        const dustMaxDistance = 50; // Maximum distance dust particles can be from the orb
-        const dustParticleRadius = .4; // Radius of each dust particle
+        const numDustParticles = 2000; // Number of dust particles
+        const dustMaxDistance = 100; // Maximum distance dust particles can be from the orb
+        const dustParticleRadius = .55; // Radius of each dust particle
         const numBands = 5; // Number of mist bands
     
         // Speed range for dust particles (modifiable)
