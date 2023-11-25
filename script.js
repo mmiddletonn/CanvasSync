@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const particleRadius = 1; // Radius of each particle
     
         // Define properties of the dust
-        const numDustParticles = 2000; // Number of dust particles
+        const numDustParticles = 0; // Number of dust particles
         const dustMaxDistance = 100; // Maximum distance dust particles can be from the orb
         const dustParticleRadius = .55; // Radius of each dust particle
         const numBands = 5; // Number of mist bands
