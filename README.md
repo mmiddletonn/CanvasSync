@@ -9,7 +9,7 @@ https://mmiddletonn.github.io/CanvasSync/
 
 ## How It Works
 
-The website uses JavaScript to create an interactive canvas that dynamically adjusts its size and position based on screen and window dimensions. It continuously renders a visually dynamic orb , resulting in an engaging and animated web page element.
+The website uses JavaScript to create an interactive canvas that dynamically adjusts its size and position based on screen and window dimensions. It continuously renders a visually dynamic orb, resulting in an engaging and animated web page element.
 
 ## License
 
