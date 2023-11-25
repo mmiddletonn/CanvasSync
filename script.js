@@ -18,10 +18,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 drawElements(); // Redraw elements after repositioning
             }).catch(error => {
                 console.error('Error fetching screen details:', error);
+                centerCanvasOnWindow();
             });
         } else {
             console.error('getScreenDetails API is not available in this browser.');
+            centerCanvasOnWindow();
         }
+    }
+
+    function centerCanvasOnWindow() {
+        // Set canvas size to the size of the window
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        // Center the canvas on the window
+        canvas.style.left = '0';
+        canvas.style.top = '0';
+
+        drawElements(); // Redraw elements after repositioning
     }
 
     function drawElements() {
@@ -104,4 +118,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initial setup
     updateCanvasSizeAndPosition();
 });
-
