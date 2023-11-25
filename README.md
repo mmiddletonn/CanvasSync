@@ -1,5 +1,9 @@
 # CanvasSync
 
+## IMPORTANT
+
+I have only gotten this working in chrome, firefox will merely show you the animation
+
 ## Demo
 ![CanvasSyncDemo](CanvasSyncDemo.gif)
 
