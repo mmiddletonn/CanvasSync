@@ -2,7 +2,7 @@
 
 ## IMPORTANT
 
-I have only gotten this working in chrome, firefox will merely show you the animation
+I have only tested this in chrome, the api making this possible is not available in every browser yet.
 
 ## Demo
 ![CanvasSyncDemo](CanvasSyncDemo1.gif)
