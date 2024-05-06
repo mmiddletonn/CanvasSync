@@ -2,7 +2,7 @@
 
 ## IMPORTANT
 
-I have only tested this in chrome, the api making this possible is not available in every browser yet.
+I have only tested this in chrome, as the api making this possible is not available in every browser yet.
 
 ## Demo
 ![CanvasSyncDemo](CanvasSyncDemo1.gif)
